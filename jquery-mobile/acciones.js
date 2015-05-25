@@ -14,14 +14,14 @@ $(document).ready(function(e) {
 		{
 	
 		case 1:
-		navigator.notofication.beep(1);
+		navigator.notification.beep(1);
 		break;
 		
 		case 2:
-		navigator.notofication.vibrate(1000);
+		navigator.notification.vibrate(1000);
 		break;
 		}//switch opt
-			},"Aplicaion5","Beep,Vibrar,Cancelar");//confirm
+			},"Aplicacion5","Beep,Vibrar,Cancelar");//confirm
 			
 		});//barrer derecha
 		
