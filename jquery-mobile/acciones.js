@@ -9,7 +9,7 @@ $(document).ready(function(e) {
 		
 		
 		$('#derecha').on("swiperight",function(){
-			navigator.notofication.confirm("¿Que quieres hacer?",function(opt){
+			navigator.notification.confirm("¿Que quieres hacer?",function(opt){
 		switch(opt)
 		{
 	
